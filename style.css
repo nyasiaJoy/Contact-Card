@@ -1,0 +1,73 @@
+#back {
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/b9/eb/75/b9eb7583f3c08078d7f51686b23f649e.jpg");
+    background-size: cover;
+
+}
+
+#card {
+    background-image: url("https://i.pinimg.com/originals/d8/e9/43/d8e943c99392767ec1106e8b60a84240.png");
+    background-size: cover;
+    width: calc(100% - 30px);
+    max-width: 350px;
+    height: auto;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    text-align: center;
+    color: #889D99;
+    font-family: "Courier New", monospace;
+    border-radius: 15px;
+    background-color: rgba(31, 11, 53, 0.5);
+
+}
+
+#email {
+    text-align: center;
+    color: #382E25;
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+}
+
+#save {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #889D99;
+    color: #F9EBC7;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+
+}
+
+#link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4A0F6C;
+    margin-bottom: 20px;
+}
+
+#resume {
+    max-height: 400px;
+    width: calc(100% - 50px);
+    max-width: 300px;
+    object-fit: contain;
+    padding-left: 25px;
+    padding-right: 25px;
+}
